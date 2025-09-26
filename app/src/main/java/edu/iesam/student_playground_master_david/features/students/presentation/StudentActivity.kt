@@ -33,6 +33,8 @@ class StudentActivity : AppCompatActivity() {
         initStudents()
     }
 
+
+
     fun initStudents() {
         val xml = StudentXmlLocalDataSource()
         val mem = StudentMemLocalDataSource()
@@ -70,3 +72,5 @@ class StudentActivity : AppCompatActivity() {
         Log.d("@dev", "Stop")
     }
 }
+
+
